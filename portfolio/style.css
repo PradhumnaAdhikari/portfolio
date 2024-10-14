@@ -1,0 +1,298 @@
+ /* Home page starts here */
+*
+{
+    background-color: #c0c0c0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+body{
+    width: 100%;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    /* overflow: hidden; */
+}
+.container .box{
+    width: 1300px;
+    height: 800px;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e8d3d3;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px #808080;
+    align-items: center;
+    justify-content: center;
+}
+.container .bhead{
+    width: 100%;
+}
+ul li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0px;
+    padding: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.clear{
+    clear: both;
+}
+ul li a{
+    text-decoration: none;
+    background: transparent;
+}
+
+ul li:hover{
+    background-color: #000000;
+}
+.container .cover
+{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    align-content: center;
+    background: transparent;
+}
+.container .mypic{
+    width: 45%;
+    margin: 5%;
+    background: transparent;
+    /* float: right; */
+    align-items: center;
+}
+.mypic img{
+    width: 500px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    border-radius:70% 40% 30% 80% / 55% 45% 60% 50% ;
+}
+.container .texts{
+    margin-top: 10%;
+    width: 45%;
+    background: transparent;
+    /* float: left; */
+}
+h2
+{
+    background: transparent;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 0.5;
+}
+h3
+{
+    color: #c0c0c0;
+    background: transparent;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.5;
+}
+
+h3 span{
+    background: transparent;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+h2 span
+{
+    color: rgb(138, 43, 227);
+    background: transparent;
+}
+.cta
+{
+   display: inline-block;
+   padding: 10px 30px;
+   background-color: transparent;
+   color: #c0c0c0;
+   border: 2px solid crimson;
+   font-size: 2rem;
+   transition: 0.3s ease;
+   transition-property: color;
+   text-transform: uppercase;
+   margin-top: 20px;
+   text-decoration: none;
+   letter-spacing: 0.1rem;
+}
+.cta:hover{
+    background-color: red;
+}
+hr
+{
+    color: #e8d3d3;
+    margin: 0px 40px;
+}
+p
+{
+    background: transparent;
+}
+footer
+{
+    margin: 0;
+    text-align: center;
+}
+
+/* Home page ends here */
+
+/* Contact page starts here */
+
+.contact
+{
+    display: flex;
+    flex-wrap: nowrap;
+    background: transparent;
+    width: 100%;
+}
+.contactdiv
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 670px;
+    border: 1px solid #808080;
+    border-bottom: 0;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px 4px #808080;
+    background-color: transparent;
+}
+.contactdiv .info
+{
+    background: transparent;
+    line-height: 0.35;
+    text-align: start;
+    margin: 30px;
+    padding: 20px;
+    /* margin-bottom: 8%; */
+}
+.info h2
+{
+    font-weight: 700;
+    background: transparent;
+    color: #31c842;
+}
+.info h3
+{
+    color: #000000;
+    font-weight: 800;
+}
+.info h4
+{
+    background: transparent;
+    color: rgb(138, 43, 227);
+    font-weight: 400;
+    font-size: 30px;
+}
+.info h5
+{
+    font-size: 20px;
+    background: transparent;
+}
+.contactform
+{
+    width: 45%;
+    background: transparent;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 0.75;
+}
+.contactform form , .contactform label
+{
+    background: transparent;
+    text-align: start;
+}
+.contactform input
+{
+    width: 100%;
+    background: transparent;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contactform input[type=submit]
+{
+    background-color: #0c6116;
+}
+.contactform input[type=submit]:hover
+{
+    background-color: #008000;
+    color: #ffffff;
+}
+.contactform textarea
+{
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+/* Contact page ends here */
+
+/* About me page  starts here*/
+
+.aboutCover
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCover .aboutTexts
+{
+    width: 50%;
+    margin-left: 30px;
+    padding: 3px;
+    font-size: 20px;
+    background: transparent;
+    
+}
+/* About me page ends here*/
+
+/* Skills page starts here*/
+
+.aboutSkill
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.25;
+}
+.aboutSkill .img1
+{
+    margin: 10px;
+    background: transparent;
+    padding: 10px;
+}
+.aboutSkill h3
+{
+    color: #000000;
+}
+
+
+/* Skills page ends here*/

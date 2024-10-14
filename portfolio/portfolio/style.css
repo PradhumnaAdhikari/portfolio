@@ -1,0 +1,113 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff; 
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 30px;
+    font-family: 'montserrat' , san-serif;
+    background-image: linear-gradient(to right, #5b4b8d 40%, #8274a6);
+}
+
+.title{
+    /* width: 100%;
+    margin: 0px;
+    padding: 10px; */
+    /* height: 800px; */
+    align-items: center;
+    background-image: url(image/coverpic.jpg);
+    background-position: top center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    z-index: 1;
+}
+.title .coverText{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 150px;
+    /* line-height: 0.5; */
+    cursor: pointer;
+}
+
+.container
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.title .cta
+{
+   display: inline-block;
+   padding: 10px 30px;
+   background-color: transparent;
+   color: white;
+   border: 2px solid crimson;
+   font-size: 2rem;
+   transition: 0.3s ease;
+   transition-property: color;
+   text-transform: uppercase;
+   margin-top: 20px;
+   /* letter-spacing: 0.1rem; */
+}
+
+.title .cta:hover
+{
+    background-color: red;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 50px;
+}
+
+#myprofile{
+    width: 1300px;
+    height: 600px;
+    line-height: 0.5;
+    margin-top: 150px;
+    margin-left: 200px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+    background-image: url(image/banner5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#myprofile pre{
+    color: #ffffff;
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.choice .cta
+{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    transition: 0.3s ease;
+    transition-property: color;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.choice .button
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
